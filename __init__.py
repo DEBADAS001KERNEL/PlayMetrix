@@ -1,7 +1,7 @@
 """
-PlayMetrix Agents Package
+PlayMetrix Engine Package
 """
-from playmetrix.agents.base_agent import BaseAgent
-from playmetrix.agents.dqn_agent import DQNAgent, MatrixQNetwork
+from playmetrix.engine.matrix_ops import MatrixOperationEngine
+from playmetrix.engine.validators import MatrixValidator
 
-__all__ = ["BaseAgent", "DQNAgent", "MatrixQNetwork"]
+__all__ = ["MatrixOperationEngine", "MatrixValidator"]
